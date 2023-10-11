@@ -1,13 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    psych (3.3.2)
+    psych (5.1.1)
+      stringio
+    stringio (3.0.8)
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
-  psych (= 3.3.2)
+  psych (= 5.1.1)
 
 RUBY VERSION
    ruby 2.7.8p225
